@@ -28,8 +28,9 @@ a:hover {
 	color: #999;
 }
 
+
 /* ---------------------------------------------- /*
- * Transition elsements
+ * Transition elements
 /* ---------------------------------------------- */
 
 
@@ -228,6 +229,21 @@ textarea.form-control {
 /* ---------------------------------------------- /*
  * General Styles
 /* ---------------------------------------------- */
+
+.aboutlink {
+    text-decoration: none !important;
+    color: #666 !important;
+}
+
+.aboutlink:hover {
+    text-decoration: none !important;
+	color: #666 !important;
+}
+
+.aboutlink:visited {
+    text-decoration: none !important;
+	color: #666 !important;
+}
 
 .pfblock {
 	padding: 120px 0 100px;
@@ -701,13 +717,13 @@ textarea.form-control {
     position: relative;
     color: #fff;
     -webkit-animation-name: drop;
-	-webkit-animation-duration: 1s;
+	-webkit-animation-duration: 1.5s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-delay: 0s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-play-state: running;
 	animation-name: drop;
-	animation-duration: 1s;
+	animation-duration: 1.5s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
