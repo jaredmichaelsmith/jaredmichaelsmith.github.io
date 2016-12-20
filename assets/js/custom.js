@@ -16,7 +16,7 @@
 		/* ---------------------------------------------- */
 
 		$('a[href*=#]').bind("click", function(e){
-           
+
 			var anchor = $(this);
 			$('html, body').stop().animate({
 				scrollTop: $(anchor.attr('href')).offset().top
@@ -45,10 +45,10 @@
 			offset: 70
 		})
 
-        
+
         /* ---------------------------------------------- /*
 		 * Skills
-        /* ---------------------------------------------- */    
+        /* ---------------------------------------------- */
         //var color = $('#home').css('backgroundColor');
 
         $('.skills').waypoint(function(){
@@ -64,34 +64,8 @@
                 });
             });
         },{offset:'80%'});
-        
-        
-        /* ---------------------------------------------- /*
-		 * Quote Rotator
-		/* ---------------------------------------------- */
-       
-			$( function() {
-				/*
-				- how to call the plugin:
-				$( selector ).cbpQTRotator( [options] );
-				- options:
-				{
-					// default transition speed (ms)
-					speed : 700,
-					// default transition easing
-					easing : 'ease',
-					// rotator interval (ms)
-					interval : 8000
-				}
-				- destroy:
-				$( selector ).cbpQTRotator( 'destroy' );
-				*/
 
-				$( '#cbp-qtrotator' ).cbpQTRotator();
 
-			} );
-		
-        
 		/* ---------------------------------------------- /*
 		 * Home BG
 		/* ---------------------------------------------- */
@@ -140,7 +114,7 @@
 			var c_email = $('#c_email').val();
 			var c_message = $('#c_message ').val();
 			var response = $('#contact-form .ajax-response');
-			
+
 			var formData = {
 				'name'       : c_name,
 				'email'      : c_email,
@@ -164,10 +138,39 @@
 											response.html(ret.message).fadeIn(500);
 							}
 						});
-				}           
+				}
             	return false;
 			});
 
 	});
+
+		/* ---------------------------------------------- /*
+		 * Scroll triggering functions
+		/* ---------------------------------------------- */
+
+    $triggered_times = 0;
+    $(window).on('scroll', function() {
+          var y_scroll_pos = window.pageYOffset;
+          var publication_pos_offset = document.getElementById("publications").offsetTop;
+
+          if (y_scroll_pos > publication_pos_offset && $triggered_times == 0 ) {
+              $triggered_times = 1;
+
+              var confPaperCount = new CountUp("conference-paper-count", 0, 1);
+              confPaperCount.start();
+
+              var workshopPaperCount = new CountUp("workshop-paper-count", 0, 1);
+              workshopPaperCount.start();
+
+              var journalPaperCount = new CountUp("journal-paper-count", 0, 1);
+              journalPaperCount.start();
+
+              var technicalReportCount = new CountUp("technical-report-count", 0, 1);
+              technicalReportCount.start();
+
+              var postersOralCount = new CountUp("posters-oral-count", 0, 2);
+              postersOralCount.start();
+          }
+    });
 
 })(jQuery);

@@ -83,13 +83,13 @@ h2 {
 }
 
 h3 {
-	font-size: 13px;
+	font-size: 23px;
 	letter-spacing: 1px;
-	margin: 0 0 5px;
+	margin: 0 0 7px;
 }
 
 h4 {
-	font-size: 12px;
+	font-size: 15px;
 	letter-spacing: 1px;
 }
 
@@ -280,6 +280,10 @@ textarea.form-control {
 .pfblock-header {
 	text-align: center;
 	margin: 0 0 60px;
+}
+
+.pfblock-subheader {
+	margin-top: 20px;
 }
 
 .pfblock-header-left {
@@ -607,6 +611,16 @@ textarea.form-control {
 .social-links a:hover {
 	border: 1px solid rgba(255, 255, 255, .5);
 	color: rgba(255, 255, 255, .8);
+}
+
+.social-links-home a {
+	border: 1px solid #ffffff !important;
+	color: #ffffff !important;
+}
+
+.social-links-home a:hover {
+	border: 1px solid #c1c482 !important;
+	color: #c1c482 !important;
 }
 
 /* ---------------------------------------------- /*

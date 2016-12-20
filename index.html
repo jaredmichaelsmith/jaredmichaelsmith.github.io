@@ -53,6 +53,12 @@
                 <div class="start">Hi, my name is Jared.</div>
                 <h1>I'm a Computer Scientist</h1>
                 <div class="start">building the technology of tomorrow.</div>
+                <ul class="social-links social-links-home">
+                    <li><a href="https://linkedin.com/in/jaredmichaelsmith" target="_blank" class="wow fadeInUp"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/jaredmichaelsmith" target="_blank" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://twitter.com/jaredthecoder" target="_blank" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="mailto:jared@jaredsmith.io" target="_blank" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
+                </ul>
             </div>
 
             <a href="#about">
@@ -141,7 +147,7 @@
                                     <span class="icon-lock"></span>
                                 </div>
                                 <div class="iconbox-text">
-                                    <h3 class="iconbox-title">Computer Security</h3>
+                                    <h4 class="iconbox-title">Computer Security</h3>
                                     <div class="iconbox-desc">
                                         I have significant experience in security, from pentesting web applications, networks, and vehicles, to building tools.
                                         I work on cutting edge computer security R&amp;D at Oak Ridge National Laboratory, with previous
@@ -161,7 +167,7 @@
                                     <span class="fa fa-terminal"></span>
                                 </div>
                                 <div class="iconbox-text">
-                                    <h3 class="iconbox-title">Software Engineering</h3>
+                                    <h4 class="iconbox-title">Software Engineering</h3>
                                     <div class="iconbox-desc">
                                         I love building things and have been involved in engineering efforts with several startups and Fortune 50 companies since I began
                                         my computer science education.
@@ -180,7 +186,7 @@
                                     <span class="fa fa-rocket"></span>
                                 </div>
                                 <div class="iconbox-text">
-                                    <h3 class="iconbox-title">Startups</h3>
+                                    <h4 class="iconbox-title">Startups</h3>
                                     <div class="iconbox-desc">
                                         I'm actively involved in thinking up the next great things. I've won startup competitions, mentored at startup hackathons, and consulted local and remote startups in my sparetime.
                                     </div>
@@ -198,7 +204,7 @@
                                     <span class="fa fa-university"></span>
                                 </div>
                                 <div class="iconbox-text">
-                                    <h3 class="iconbox-title">Education</h3>
+                                    <h4 class="iconbox-title">Education</h3>
                                     <div class="iconbox-desc">
                                         I founded and led my university's student computer security organization, founded and led our first hackathon, published at academic conferences, and am involved in research at UTK ranging from Security to Big Data to Machine Learning.
                                     </div>
@@ -426,7 +432,7 @@
 
         <!-- Publications start -->
 
-        <section id="publications" class="pfblock pfblock-lightgray">
+        <section id="publications" class="pfblock pfblock-gray">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3">
@@ -435,25 +441,63 @@
                             <div class="pfblock-line"></div>
                             <div class="pfblock-subtitle">
                                 I've also published academic papers, given academic talks, and given poster presentations in my research career.
+                                <hr>
+                                <div class="publication-counts">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <h4>Conference Papers</h4>
+                                            <h3 id="conference-paper-count">0</h3>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h4>Workshop Papers</h4>
+                                            <h3 id="workshop-paper-count">0</h3>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h4>Journal Papers</h4>
+                                            <h3 id="journal-paper-count">0</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-md-offset-2">
+                                            <h4>Technical Reports</h4>
+                                            <h3 id="technical-report-count">0</h3>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h4>Posters and Oral Presentations</h4>
+                                            <h3 id="posters-oral-count">0</h3>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
+        <section class="pfblock pfblock-lightgray">
+            <div class="container">
                 <div class="row">
+                    <div class="pfblock-header pfblock-subheader wow fadeInUp">
+                        <h3 class="pfblock-title">Conference Papers</h3>
+                    </div>
                     <div class="col-md-12">
                         <div class="publication">
-                            <h3 class="publication-title">Crowdsourcing the Discovery of Software Repositories in
-                            an Educational Environment</h3>
-                            <h4 class="publication-authors">Yuxing Ma, Tapajit Dey, Jared M. Smith, Nathan Wilder, Audris Mockus</h4>
-                            <h4 class="publication-place">PeerJ Preprints</h4>
-                            <h5 class="publication-type">Preprint (Not yet peer-reviewed)</h4>
+                            <h3 class="publication-title">The Impact of Analog Computational Error on an Analog Boolean Satisfiability Solver</h3>
+                            <h4 class="publication-authors">David Basford, Jared M. Smith, R. Joseph Connor, Bruce J. MacLennan, Jeremy Holleman</h4>
+                            <h4 class="publication-place">2016 IEEE International Symposium on Circuits &amp; Systems</h4>
+                            <h5 class="publication-type">Conference Paper and Poster Presentation</h4>
                             <h4>Abstract:</h4>
                             <div class="publication-desc">
-                            In software repository mining, it's important to have a broad representation of projects. In particular, it may be of interest to know what proportion of projects are public. Discovering public projects can be easily parallelized but not so easy to automate due to a variety of data sources. We evaluate the research and educational potential of crowd-sourcing such research activity in an educational setting. Students were instructed on three ways of discovering the projects and assigned a task to discover the list of public projects from top 45 forges with each student assigned to one forge. Students had to discover as many of the projects as they could using the method of their choice and provide a market-research report for a fictional customer based on the attribute they selected. A subset of the results was sampled and verified for accuracy. We found that many of the public forges do not host public projects, that a substantial fraction of forges do not provide APIs and the APIs vary dramatically among the remaining forges. Some forges have been discontinued and others renamed, making the discovery task into an archaeological exercise. The students' findings raise a number of new research questions and demonstrate the teaching potential of the approach. The accuracy of the results obtained, however, was low, suggesting that crowd-sourcing would require at least two or more likely a larger number of investigators per forge or a better way to gauge investigator skill. We expect that these lessons will be helpful in creating education-sourcing efforts in software data discovery.
+                                We present an analog implementation of a dynamical system for solving Boolean satisfiability, an NP-complete problem. Simulations of modest-sized hardware implementations in the presence of noise and integrator offset demonstrate that the algorithm is suitable for implementation in analog electronics.
                             </div>
-                            <h4 class="publication-view"><a target="_blank" href="https://peerj.com/preprints/2551.pdf">View Online</a></h4>
+                            <h4 class="publication-view"><a target="_blank" href="http://ieeexplore.ieee.org/document/7539101/">View Online</a></h4>
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="pfblock-header pfblock-subheader wow fadeInUp">
+                        <h3 class="pfblock-title">Workshop Papers</h3>
                     </div>
                     <div class="col-md-12">
                         <div class="publication">
@@ -468,31 +512,29 @@
                             <h4 class="publication-view"><a target="_blank" href="http://dl.acm.org/citation.cfm?id=2896833">View Online</a></h4>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <div class="publication">
-                            <h3 class="publication-title">The Impact of Analog Computational Error on an Analog Boolean Satisfiability Solver</h3>
-                            <h4 class="publication-authors">David Brasford, Jared M. Smith, R. Joseph Connor, Bruce J. MacLennan, Jeremy Holleman</h4>
-                            <h4 class="publication-place">2016 IEEE International Symposium on Circuits &amp; Systems</h4>
-                            <h5 class="publication-type">Conference Paper and Poster Presentation</h4>
-                            <h4>Abstract:</h4>
-                            <div class="publication-desc">
-                                We present an analog implementation of a dynamical system for solving Boolean satisfiability, an NP-complete problem. Simulations of modest-sized hardware implementations in the presence of noise and integrator offset demonstrate that the algorithm is suitable for implementation in analog electronics.
-                            </div>
-                            <h4 class="publication-view"><a target="_blank" href="http://ieeexplore.ieee.org/document/7539101/">View Online</a></h4>
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="pfblock-header pfblock-subheader wow fadeInUp">
+                        <h3 class="pfblock-title">Journal Papers</h3>
                     </div>
                     <div class="col-md-12">
                         <div class="publication">
-                            <h3 class="publication-title">Asymmetric Continuous Time Neural Network on Analog Hardware for Solving Boolean Satifiability</h3>
-                            <h4 class="publication-authors">Jared M. Smith, Bruce J. MacLennan</h4>
-                            <h4 class="publication-place">2016 National Conference for Undergraduate Research</h4>
-                            <h5 class="publication-type">Conference Presentation</h4>
+                            <h3 class="publication-title">Crowdsourcing the Discovery of Software Repositories in
+                            an Educational Environment</h3>
+                            <h4 class="publication-authors">Yuxing Ma, Tapajit Dey, Jared M. Smith, Nathan Wilder, Audris Mockus</h4>
+                            <h4 class="publication-place">PeerJ Preprints</h4>
+                            <h5 class="publication-type">Journal Preprint (Not yet peer-reviewed)</h4>
                             <h4>Abstract:</h4>
                             <div class="publication-desc">
-                                Analog computation is rooted in the early period of electronics and computer technology. Once at the pinnacle of computation in the early 20th century, analog computation is now largely obsolete for conventional and particularly personal computing, yet it remains a promising area of research for computer scientists involved in advanced computational methods. Analog computation operates on the set of all real numbers and draws its power from this, rather than the discrete quantities used in digital computation. Additionally, analog computers perform very well in massively parallel systems, use comparatively small amounts of power, and disperse less heat. All of these properties combined make analog computation promising for a diverse array of applications, including simulating the human brain and building highly efficient artificial neural networks and constructing complex robotics systems. In this report, I present another application of analog computation, solving boolean satisfiability (SAT) problems, which is the basis for all NP-Complete problems...
+                            In software repository mining, it's important to have a broad representation of projects. In particular, it may be of interest to know what proportion of projects are public. Discovering public projects can be easily parallelized but not so easy to automate due to a variety of data sources. We evaluate the research and educational potential of crowd-sourcing such research activity in an educational setting. Students were instructed on three ways of discovering the projects and assigned a task to discover the list of public projects from top 45 forges with each student assigned to one forge. Students had to discover as many of the projects as they could using the method of their choice and provide a market-research report for a fictional customer based on the attribute they selected. A subset of the results was sampled and verified for accuracy. We found that many of the public forges do not host public projects, that a substantial fraction of forges do not provide APIs and the APIs vary dramatically among the remaining forges. Some forges have been discontinued and others renamed, making the discovery task into an archaeological exercise. The students' findings raise a number of new research questions and demonstrate the teaching potential of the approach. The accuracy of the results obtained, however, was low, suggesting that crowd-sourcing would require at least two or more likely a larger number of investigators per forge or a better way to gauge investigator skill. We expect that these lessons will be helpful in creating education-sourcing efforts in software data discovery.
                             </div>
-                            <h4 class="publication-view"><a target="_blank" href="ksat.pdf">View Online</a></h4>
+                            <h4 class="publication-view"><a target="_blank" href="https://peerj.com/preprints/2551.pdf">View Online</a></h4>
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="pfblock-header pfblock-subheader wow fadeInUp">
+                        <h3 class="pfblock-title">Technical Reports</h3>
                     </div>
                     <div class="col-md-12">
                         <div class="publication">
@@ -506,17 +548,34 @@
                             <h4 class="publication-view"><a target="_blank" href="https://library.eecs.utk.edu/pub/593">View Online</a></h4>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="pfblock-header pfblock-subheader wow fadeInUp">
+                        <h3 class="pfblock-title">Poster/Oral Presentations</h3>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="publication">
+                            <h3 class="publication-title">Asymmetric Continuous Time Neural Network on Analog Hardware for Solving Boolean Satifiability</h3>
+                            <h4 class="publication-authors">Jared M. Smith, Bruce J. MacLennan</h4>
+                            <h4 class="publication-place">2016 National Conference for Undergraduate Research</h4>
+                            <h5 class="publication-type">Oral Presentation</h4>
+                            <h4>Abstract:</h4>
+                            <div class="publication-desc">
+                                Analog computation is rooted in the early period of electronics and computer technology. Once at the pinnacle of computation in the early 20th century, analog computation is now largely obsolete for conventional and particularly personal computing, yet it remains a promising area of research for computer scientists involved in advanced computational methods. Analog computation operates on the set of all real numbers and draws its power from this, rather than the discrete quantities used in digital computation. Additionally, analog computers perform very well in massively parallel systems, use comparatively small amounts of power, and disperse less heat. All of these properties combined make analog computation promising for a diverse array of applications, including simulating the human brain and building highly efficient artificial neural networks and constructing complex robotics systems. In this report, I present another application of analog computation, solving boolean satisfiability (SAT) problems, which is the basis for all NP-Complete problems...
+                            </div>
+                            <h4 class="publication-view"><a target="_blank" href="ksat.pdf">View Online</a></h4>
+                        </div>
+                    </div>
                     <div class="col-md-12">
                         <div class="publication">
                             <h3 class="publication-title">Studies of Charge Collection in Diamond-Based Particle Detectors at the LHC</h3>
                             <h4 class="publication-authors">Jared M. Smith, Stefan Spanier</h4>
                             <h4 class="publication-place">2014 EURēCA: Exhibition of Undergraduate Research and Creative Achievement</h4>
                             <h5 class="publication-type">Poster Presentation</h4>
+                            <h4>Description</h4>
                             <div class="publication-desc">
                                 As a freshmen in college, I worked on my own experiment with the High Energy Particle Physics Group at UTK testing different materials to find an optimal material for use in the Large Hadron Collider at CERN in Geneva Switzerland. The material would be used to measure radiation levels in the collider during active collision time, which would help keep the scientists and staff in the vicinity safe during their experiments. At the end of my freshmen year, I
-                                presented the research at my university.
-                                <br><br>
-                                You can download the poster <a target="_blank" href="http://trace.tennessee.edu/cgi/viewcontent.cgi?filename=0&article=1043&context=utk_eureca&type=additional">here</a>.
+                                presented the research at my university. You can download the poster <a target="_blank" href="http://trace.tennessee.edu/cgi/viewcontent.cgi?filename=0&article=1043&context=utk_eureca&type=additional">here</a>.
                             </div>
                             <h4 class="publication-view"><a target="_blank" href="http://trace.tennessee.edu/utk_eureca/2014/artsandsciences/5/">View Online</a></h4>
                         </div>
@@ -726,7 +785,7 @@
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/jquery.easypiechart.js"></script>
         <script src="assets/js/waypoints.min.js"></script>
-        <script src="assets/js/jquery.cbpQTRotator.js"></script>
+        <script src="assets/js/countUp.min.js"></script>
         <script src="assets/js/custom.js"></script>
 
     </body>
