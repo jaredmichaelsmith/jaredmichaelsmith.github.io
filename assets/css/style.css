@@ -319,7 +319,7 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-    background: url(../images/cmatrix.png);
+    background: url(../images/cmatrix-min.png);
 	background-color: #222;
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -376,7 +376,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../images/machupichu.jpg);
+	background: url(../images/machupichu-min.jpg);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -391,7 +391,7 @@ textarea.form-control {
 .home-overlay {
     background-color: rgba(44, 62, 80, 0.3);
     background-image: url("../images/pattern.png");
-    background-repeat: repeat;
+    background-repeat: repeat;:
     height: 100%;
     left: 0;
     position: absolute;
