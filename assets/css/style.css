@@ -182,7 +182,7 @@ textarea.form-control {
 	letter-spacing: 1px;
 	font-size: 13px;
 	padding: 8px 26px;
-	border: 0;
+	border: 20;
 }
 
 .btn:hover,

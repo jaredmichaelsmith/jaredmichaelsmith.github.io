@@ -168,7 +168,7 @@
               var technicalReportCount = new CountUp("technical-report-count", 0, 1);
               technicalReportCount.start();
 
-              var postersOralCount = new CountUp("posters-oral-count", 0, 2);
+              var postersOralCount = new CountUp("posters-oral-count", 0, 3);
               postersOralCount.start();
           }
     });
